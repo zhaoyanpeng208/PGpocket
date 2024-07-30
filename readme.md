@@ -37,7 +37,7 @@ pip install pytz==2023.3.post1
 ```
 ## Dataset
 The PDB sturcture used in this study can be download from the link 
-https://example.com
+https://pan.baidu.com/s/1B6XQ9cGp5GdxxH8o1FdiZw?pwd=frhx
 ## Train
 Multiple hyperparameters can be selected in main.py.
 ```bash
