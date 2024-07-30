@@ -1,0 +1,51 @@
+experiment_name: ''
+root_path: './dataset/'
+processed_file_name: '2.8_3_128_4.pt'
+data_file: 'dataset/Features_npy.npy'
+pdb_list: './dataset/training_data_ids.npy'
+eval_on_test: True
+num_epochs: 300
+batch_size: 3
+log_iterations: -1
+patience: 10
+optim: torch.optim.Adam
+loss_func: nn.CrossEntropyLoss()
+optimizer_parameters:
+  lr: 0.125
+
+# Model parameters
+model_type: 'PointGNN'
+pooling_model_parameters:
+  input_dim: 19
+  hidden_dim1: 32
+  hidden_dim2: 64
+  hidden_dim3: 128
+  output_dim: 300
+  dropout: 0.25
+
+mlp_h_model_parameters:
+  mlp_h_input_dim: 300
+  mlp_h_hidden_dim: 64
+  mlp_h_output_dim: 3
+  dropout: 0.25
+
+mlp_f_model_parameters:
+  mlp_f_input_dim: 303
+  mlp_f_hidden_dim: 300
+  mlp_f_output_dim: 300
+  dropout: 0.25
+
+mlp_g_model_parameters:
+  mlp_g_input_dim: 300
+  mlp_g_hidden_dim: 300
+  mlp_g_output_dim: 300
+  dropout: 0.25
+
+pointGNN_model_parameters:
+  fc_input_dim: 300
+  fc_hidden_dim1: 128
+  fc_hidden_dim2: 64
+  fc_output_dim: 2
+  dropout: 0.25
+  num_classes: 2
+  n_layers: 3
