@@ -45,6 +45,7 @@ python main.py
 ```
 After model training starts, the progress bar will be automatically shown on your command line， and the trained model parameters will be saved in "runs" dictory for every epoch.
 ## Prediction
+Model parameters can be found under the runs folder
 ```bash
 python predict.py
 ```
