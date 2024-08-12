@@ -25,19 +25,11 @@ git clone https://github.com/username/my-project.git
 ```
 Install PGpocket dependencies as following:
 ```bash
-conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 cu102 -c pytorch
-pip install torch-geometric==2.4.0
-pip install torch-cluster==1.6.3
-pip install torch-scatter==2.1.2
-pip install torch-sparse==0.6.18
-pip install torch-spline-conv==1.2.2
-pip install pykeops==2.1.2
-pip install plyfile==1.0.2
-pip install pytz==2023.3.post1
+conda env create -f environment.yaml
 ```
 ## Dataset
 The PDB sturcture used in this study can be download from the link 
-https://pan.baidu.com/s/1B6XQ9cGp5GdxxH8o1FdiZw?pwd=frhx
+https://zenodo.org/records/13283856
 ## Train
 Multiple hyperparameters can be selected in main.py.
 ```bash
