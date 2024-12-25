@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea232a76-46f6-458f-ba72-2528edd58b76" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +36,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\模型\PGpocket" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\模型\PGpocket" />
     </key>
@@ -52,7 +56,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722323852116</updated>
-      <workItem from="1722323853711" duration="3492000" />
+      <workItem from="1722323853711" duration="5903000" />
+      <workItem from="1722762483872" duration="2017000" />
+      <workItem from="1723428625501" duration="2277000" />
+      <workItem from="1729730851602" duration="620000" />
     </task>
     <servers />
   </component>
@@ -64,5 +71,17 @@
       <screen x="2573" y="1080" width="2048" height="1112" />
     </state>
     <state x="3328" y="1386" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/13.1080.2048.1112/2573.1080.2048.1112@2573.1080.2048.1112" timestamp="1722324507399" />
+    <state x="818" y="1394" key="FileChooserDialogImpl" timestamp="1722937947028">
+      <screen x="13" y="1080" width="2048" height="1112" />
+    </state>
+    <state x="818" y="1394" key="FileChooserDialogImpl/0.0.1920.1040/13.1080.2048.1112/2573.1080.2048.1112@13.1080.2048.1112" timestamp="1722937947028" />
+    <state x="492" y="1259" key="SettingsEditor" timestamp="1723428651972">
+      <screen x="13" y="1080" width="2048" height="1112" />
+    </state>
+    <state x="492" y="1259" key="SettingsEditor/0.0.1920.1040/13.1080.2048.1112/2573.1080.2048.1112@13.1080.2048.1112" timestamp="1723428651972" />
+    <state x="748" y="1464" key="com.intellij.ide.util.TipDialog" timestamp="1723428625569">
+      <screen x="13" y="1080" width="2048" height="1112" />
+    </state>
+    <state x="748" y="1464" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/13.1080.2048.1112/2573.1080.2048.1112@13.1080.2048.1112" timestamp="1723428625569" />
   </component>
 </project>
